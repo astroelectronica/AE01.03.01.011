@@ -1,0 +1,29 @@
+.title KiCad schematic
+.include "models/2N7002.spice.txt"
+.include "models/DLD101.spice.txt"
+.include "models/XPE_SPICE.lib"
+R4 /SET 0 {Rset}
+R3 VCC /D 82K
+R1 /G /DIMM 10K
+R2 /G 0 1Meg
+V1 /DIMM 0 PULSE(0 {VDIMM} 0 {tr} {tf} {duty} {periode})
+V2 VCC 0 {VSOURCE}
+D1 VCC /L1 XLampXPEwhite
+XU2 /K /D /D 0 NC_01 /SET /SET DLD101
+XU1 /D /G 0 N7002
+D2 VCC /L1 XLampXPEwhite
+D3 /L1 /L2 XLampXPEwhite
+D5 /L2 /L3 XLampXPEwhite
+D6 /L2 /L3 XLampXPEwhite
+D9 /L4 /L5 XLampXPEwhite
+D10 /L4 /L5 XLampXPEwhite
+D12 /L5 /L6 XLampXPEwhite
+D11 /L5 /L6 XLampXPEwhite
+D14 /L6 /L7 XLampXPEwhite
+D16 /L7 /K XLampXPEwhite
+D15 /L7 /K XLampXPEwhite
+D13 /L6 /L7 XLampXPEwhite
+D4 /L1 /L2 XLampXPEwhite
+D7 /L3 /L4 XLampXPEwhite
+D8 /L3 /L4 XLampXPEwhite
+.end

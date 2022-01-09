@@ -1,0 +1,24 @@
+Circuit: *AE01.03.01.011
+
+WARNING: Less than two connections to node NC_01.  This node is used by R:U2:1.
+Instance "m:u1:1": Width narrower than recommended for a level 3 MOSFET.
+Per .tran options, skipping operating point for transient analysis.
+
+Date: Sun Jan 09 18:01:00 2022
+Total elapsed time: 0.166 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7271
+traniter = 7271
+tranpoints = 3275
+accept = 2664
+rejected = 611
+matrix size = 52
+fillins = 35
+solver = Normal
+Thread vector: 10.1/8.7[2] 4.0/4.1[1] 1.9/2.6[1] 1.0/2.3[1]  2592/500
+Matrix Compiler1: 5.48 KB object code size  3.0/1.5/[1.2]
+Matrix Compiler2: 4.96 KB object code size  1.4/1.5/[1.0]
+

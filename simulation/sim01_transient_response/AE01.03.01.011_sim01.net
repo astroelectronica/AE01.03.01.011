@@ -1,0 +1,13 @@
+*AE01.03.01.011
+*sim01
+*transient response
+.include ../AE01.03.01.011.cir
+.param VSOURCE=24
+.param VDIMM=5
+.param Rset=1.6956
+.param duty=0.625m
+.param periode=2.5m
+.param x_base=10m
+.param tr=50n
+.param tf=50n
+.tran 0 {x_base} 0 uic startup

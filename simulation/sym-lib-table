@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name AE01.03.01.011-cache)(type Legacy)(uri ${KIPRJMOD}/AE01.03.01.011-cache.lib)(options "")(descr ""))
+)
